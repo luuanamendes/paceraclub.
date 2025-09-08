@@ -1,0 +1,18 @@
+@import url("home.css");
+
+:root{
+    --branco: #FFFFFF;
+    --offwhite: #F1EDEA;
+    --marrom: #B1A086;
+    --cinza-claro: #828282;
+    --cinza-escuro: #232323;
+    --preto: #000000;
+    --font-principal: "Poppins";
+}
+
+body{
+    background-color: var(--offwhite);
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+}
