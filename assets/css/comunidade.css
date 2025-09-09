@@ -1,0 +1,62 @@
+.conteudo-comunidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-comunidade{
+    background-color: var(--branco);
+    margin: 7em 0;
+    width: 25%;
+    padding: 8em 6em;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 1px rgb(0 0 0 / 5%);
+}
+
+.card-comunidade-texto{
+    color: var(--cinza-escuro);
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.card-comunidade-caixas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.card-comunidade-input{
+    background-color: transparent;
+    border: solid 1px var(--cinza-claro);
+    border-radius: 6px;
+    height: 3em;
+    width: 90%;
+    padding: 0 1.5em;
+}
+
+.card-comunidade-input::placeholder{
+    color: var(--cinza-claro);
+    font-family: var(--font-principal);
+}
+
+.card-comunidade-btn{
+    background-color: var(--cinza-escuro);
+    border: solid 1px var(--cinza-escuro);
+    border-radius: 6px;
+    color: var(--branco);
+    font-weight: 500;
+    height: 3.1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease-in-out;
+}
+
+.card-comunidade-btn:hover{
+    background-color: transparent;
+    color: var(--cinza-escuro);
+}

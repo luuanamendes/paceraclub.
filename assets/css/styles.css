@@ -1,4 +1,5 @@
 @import url("home.css");
+@import url("comunidade.css");
 
 :root{
     --branco: #FFFFFF;
@@ -10,9 +11,19 @@
     --font-principal: "Poppins";
 }
 
+html, body {
+  height: 100%;
+}
+
 body{
     background-color: var(--offwhite);
     font-family: var(--font-principal);
     font-size: 14px;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;  
+}
+
+main {
+    flex-grow: 1;
 }
