@@ -1,4 +1,4 @@
-.cabeçalho{
+.cabeçalho {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,24 +8,141 @@
     box-shadow: 0px 2px 10px 1px rgb(0 0 0 / 5%);
 }
 
-.cabeçalho-logo{
+.cabeçalho-logo {
     height: 4em;
 }
 
-.lista-menu{
-    display: flex;
-    gap: 1.5em;
+.cabeçalho-container{
+    padding: 1em;
 }
 
-.lista-menu-link{
+.lista-menu {
+    display: flex;
+    gap: 2em;
+}
+
+.lista-menu-link {
     color: var(--cinza-escuro);
     font-weight: 500;
+    padding: 1em;
+    transition: color 0.2s ease-in-out;
 }
 
-.cabeçalho-container2-img{
+.lista-menu-link:hover{
+    color: var(--cinza-claro);
+}
+
+.cabeçalho-container2-img {
     height: 1.5em;
 }
 
-.sub{
+.sub {
     text-decoration: underline;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 7em 0 7em 0;
+}
+
+.banner-img {
+    position: absolute;
+    bottom: 7.5em;
+    left: 0;
+}
+
+.card {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 30vw;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 1px rgb(0 0 0 / 5%);
+    padding: 10em 8em;
+}
+
+.card-pretitulo {
+    color: var(--cinza-escuro);
+}
+
+.card-titulo {
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.card-texto {
+    color: var(--cinza-claro);
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: center;
+    margin: .5em 0;
+}
+
+.card-btn {
+    border: solid 1px var(--cinza-escuro);
+    border-radius: 6px;
+    padding: 1.5em 2em;
+    color: var(--cinza-escuro);
+    background-color: transparent;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card-btn:hover {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
+
+.rodapé {
+    background-color: var(--cinza-escuro);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 8em;
+    position: relative;
+}
+
+.rodapé-texto {
+    text-align: left;
+}
+
+.rodapé-titulo {
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.rodapé-descrição {
+    color: var(--cinza-claro);
+    font-weight: 500;
+}
+
+.rodapé-contato-texto {
+    color: var(--branco);
+    font-weight: 700;
+    margin-top: .5em;
+}
+
+.rodapé-contato-img {
+    height: 1.5em;
+    margin: .7em .5em 0 .5em;
+}
+
+.rodapé-info-dev {
+    color: var(--cinza-claro);
+    margin-top: 3em;
+}
+
+.rodapé-info-dev-link {
+    color: var(--cinza-claro);
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+.rodapé-info-dev-link:hover {
+    color: var(--branco);
 }
