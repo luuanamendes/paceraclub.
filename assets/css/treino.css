@@ -1,0 +1,83 @@
+.conteudo-treino{
+  
+}
+
+.banner-treino{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-treino div{
+    width: 60%;
+    margin: 12em 20% 12em 20%;
+}
+
+.banner-treino-titulo{
+    font-size: 5.7em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    text-align: center;
+}
+
+.banner-treino-descrição{
+    font-size: 1.2em;
+    color: var(--cinza-claro);
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.card-treino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    padding: 10em 0;
+}
+
+.primeiro{
+    background-color: var(--branco);
+}
+
+.segundo{
+    background-color: var(--cinza-escuro);
+}
+
+.terceiro{
+    background-color: var(--branco);
+}
+
+.card-treino-descrição{
+    margin-right: 1em;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+}
+
+.card-treino-titulo{
+    font-size: 2.3em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.card-treino-titulo.segundo{
+    color: var(--branco);
+}
+
+.card-treino-texto{
+    color: var(--cinza-claro);
+    line-height: 1.5em;
+}
+
+.card-treino-arq{
+
+}
+
+.card-treino-img{
+
+}
