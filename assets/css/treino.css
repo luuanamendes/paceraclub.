@@ -1,7 +1,3 @@
-.conteudo-treino{
-  
-}
-
 .banner-treino{
     width: 100%;
     display: flex;
@@ -72,12 +68,4 @@
 .card-treino-texto{
     color: var(--cinza-claro);
     line-height: 1.5em;
-}
-
-.card-treino-arq{
-
-}
-
-.card-treino-img{
-
 }
