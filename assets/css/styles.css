@@ -1,6 +1,7 @@
 @import url("home.css");
 @import url("comunidade.css");
 @import url("treino.css");
+@import url("contato.css");
 
 :root{
     --branco: #FFFFFF;
